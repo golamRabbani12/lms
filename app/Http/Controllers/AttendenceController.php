@@ -4,7 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class AttendenceController extends Controller
+class AdmissionController extends Controller
 {
-    //
+    public function admission() {
+        return view('admission');
+    }
 }
